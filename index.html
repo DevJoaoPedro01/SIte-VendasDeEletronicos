@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <title>Eletronics Store</title>
+</head>
+
+<body>
+
+  <!-- introdução bootstrap -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./assets/img/logoImg.avif" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Carrinho</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+  <!-- fim introdução bootstrap -->
+
+  <!-- introdução carrossel -->
+  <div id="carouselCaptions" class="carousel slide " data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://www.oficinadanet.com.br/imagens/post/47704/capa-ps5-slim-tem-data-e-preco-vazados-por-documento-da-microsoft.jpg"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>PlayStation 5 Slim</h5>
+          <p>O console PS5® (modelo CFI-2000, slim) já está disponível em alguns países e continuará a ser
+            disponibilizado globalmente.
+            Suporte vertical vendido separadamente.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://bluegames.com.br/wp-content/uploads/2021/03/xbox-series-x.jpg" class="d-block w-100"
+          alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Console Xbox Series X</h5>
+          <p>Apresentamos o xbox series x, nosso console mais rápido e poderoso de todos os tempos; jogue milhares de
+            títulos de quatro gerações de consoles.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://t2.tudocdn.net/695416?w=824&h=494" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Galaxy
+            Book4 Ultra</h5>
+          <p>O display de 16” do Galaxy Book4 Ultra é um presente para os olhos. Sua criatividade ganha vida em alta
+            resolução com cores vivas e brilhantes, rolagem suave de movimento na tela e emissão reduzida de luz azul
+            para conforto ocular.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- fim introdução carrossel -->
+
+  <h1 class="titleSection1">As Melhores Ofertas, Promoções e Cupons
+  </h1>
+
+  <!-- introdução grupo de cards -->
+  <!-- inicio seção1 -->
+
+  <div id="carouselCards1" class="carousel">
+    <section class="pt-5 pb-5">
+      <div class="container">
+
+        <!-- inicio carrossel de card´s -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+            <div class="row">
+
+              <div class="col-md-3">
+                <div class="card">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRNWk8mLuci7ruBfHgK1qJrZEXamC04j91FqnmJpBPYagz2n2ZIw7Mw0IcIEIBjL0mot0mx3qZ8GQF0OzpaZj7HHs8qGc9JlTDaJTI8ewFd6hifOq3FEFwYxA&usqp=CAE"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">JBL</h5>
+                    <p class="card-text">Caixa de Som Bluetooth, PartyBox 310</p>
+                    <!-- <a href="#" class="btn btn-primary">Comprar agora</a> -->
+                    <button type="button" class="btn btn-primary">Comprar agora</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="https://m.media-amazon.com/images/I/61vJtKbAssL._AC_SX679_.jpg" class="card-img-top"
+                    alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Sony WH-1000XM5</h5>
+                    <a href="#" class="btn btn-primary">Comprar agora</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card">
+                  <img
+                    src="https://images.tcdn.com.br/img/img_prod/233368/lancamento_poltrona_de_massagem_future_cor_preta_1721_1_acfb06c4c9edd1eb6dd3c225bb813142.jpg"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Poltrona de Massagem Future</h5>
+                    <p class="card-text">A Poltrona de Massagem Future foi desenvolvida para oferecer o máximo em saúde,
+                      conforto e bem-estar.</p>
+                    <a href="#" class="btn btn-primary">Comprar agora</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="https://m.media-amazon.com/images/I/51nBA6JW+ML._AC_SY300_SX300_.jpg" class="card-img-top"
+                    alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Impressora Epson</h5>
+                    <p class="card-text">anque de Tinta Colorida, formato até A3+ Wi-Fi , USB, Bivolt.</p>
+                    <a href="#" class="btn btn-primary">Comprar agora</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="titleSection1">Novos Produtos</h1>
+
+        <!-- introdução grupo de cards -->
+        <!-- inicio seção1 -->
+
+        <div id="carouselCards1" class="carousel">
+          <section class="pt-5 pb-5">
+            <div class="container">
+
+              <!-- inicio carrossel de card´s -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                  <div class="row">
+
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img
+                          src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR9wVJ2RrtV27EdV9T3lFLCZQT0OwRZGXYKXpeiPd_vbM357CjMFDDs7_bpaaJadQEag3t5q_zXoYmQ2cM9DqPSYCiYJLqOF5VkRakFaRqQphXfUuL1rjUkPw&usqp=CAE"
+                          class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mini Projetor LED</h5>
+                          <p class="card-text">HDMI,TF,USB</p>
+                          <!-- <a href="#" class="btn btn-primary">Comprar agora</a> -->
+                          <button type="button" class="btn btn-primary">Comprar agora</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/51DF-14iHzL._AC_SX679_.jpg" class="card-img-top"
+                          alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">PS Controle Dualsense</h5>
+                          <p class="card-text"> controle sem fio DualSense™ Midnight Black. Parte de uma nova linha de
+                            cores com o tema galáxia, este elegante design foi inspirado em como vemos as maravilhas do
+                            espaço no céu noturno, com tons sutis de preto e detalhes em cinza-claro.</p>
+                          <a href="#" class="btn btn-primary">Comprar agora</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0nohvx0xIvFOJEq7qMGXGK783eWkwjMYKg&s"
+                          class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">HyperX Microfone Gamer QuadCast</h5>
+                          <p class="card-text"></p>
+                          <a href="#" class="btn btn-primary">Comprar agora</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="card">
+                        <img
+                          src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTOSPlAHy1fDbB4PlwINOcopDnVb1hJmdr8y6bvDUHikB8LLUyCYrXmZe2_p1NxreynjZJ47Fxlw04H4kOd57W_ZjMU4CCmPMu1imVkLEI&usqp=CAE"
+                          class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                            Porteiro Eletrônico</h5>
+                          <p class="card-text">Interfone Porteiro Eletrônico AM-M10 Amelco Bivolt A Amelco, que
+                            sempre zelou pela sua segurança, com os melhores e mais inovadores aparelhos .</p>
+                          <a href="#" class="btn btn-primary">Comprar agora</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- botões de controles do carrossel de card´s -->
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselCards1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+          </section>
+        </div>
+
+
+        <h1 class="titleSection2">Mais Vendidos</h1>
+
+        <!-- inicio seção2 -->
+        <section class="pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-3">
+                <div class="card">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTBJ4s37t9gmPQYgY5W24MzZh7g012RmhXlMM1mguIT4ahC7c0-bHVoyXtn2w2RD01o9PtmusGlh9tbEzW8lXkwRep_sCjrTt9Ot3KR1qbmWM1zkZ0zXwBgJwzpU-Ct8vq3m6ArqA&usqp=CAc"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Kindle Paperwhite </h5>
+                    <p class="card-text">32 GB, à prova d’água, carregamento sem fio e luz frontal adaptável</p>
+                    <!-- <a href="#" class="btn btn-primary">Comprar agora</a> -->
+                    <button type="button" class="btn btn-primary">Comprar agora</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card">
+                  <img
+                    src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRjW27CXEOo7P3DSjlXlkkDSwWAmLzaqyKe7ogulTHnV4JE0y5fmzx0SHUqnkp4PNgvbW85AXu7maDGVlS_1VXOf8-PL_EiV5c5imEAQG11uOPDrFORnCY69jeToqnEYzNepcILfvHTJ6k&usqp=CAc"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Smart TV 75" UHD 4K Samsung</h5>
+                    <p class="card-text">Processador Crystal 4K, Samsung Gaming Hub, Visual Livre de Cabos, Tela sem
+                      limites,
+                      Alexa built in</p>
+                    <a href="#" class="btn btn-primary">Comprar agora</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="https://m.media-amazon.com/images/I/61S-DJU336L._AC_SY300_SX300_.jpg" class="card-img-top"
+                    alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Echo Dot </h5>
+                    <p class="card-text">5ª geração com Relógio | Smart speaker com Alexa | Display de LED ainda melhor
+                      | Cor
+                      Azul Claro</p>
+                    <a href="#" class="btn btn-primary">Comprar agora</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="https://m.media-amazon.com/images/I/41kBmL3zaZL._AC_SX679_.jpg" class="card-img-top"
+                    alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Apple iPhone 12 </h5>
+                    <p class="card-text">Tela Super Retina XDR de 6,1 polegadas
+                    </p>
+                    <a href="#" class="btn btn-primary">Comprar agora</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+        </section>
+
+        <!-- inicio seção footer -->
+
+        <div class="footer1">
+          <div class="infoFooter1">
+            <p>Horário de Funcionamento: Seg / Sex - 09:00 às 17:00</p>
+            <a id="telFooter" href="tel:+553299999-9999">+55 11 4022 8922</a>
+            <p>Rua Governador Francelino Pereira 133 , Cataguases - MG</p>
+          </div>
+        </div>
+
+        <section class="footer2">
+          <div class="rSociais">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+
+          <ul>
+            <li>
+              <a href="#">Ajuda</a>
+            </li>
+            <li>
+              <a href="#">Contate o Suporte</a>
+            </li>
+            <li>
+              <a href="#">Redes Sociais</a>
+            </li>
+          </ul>
+          <p class="copyright">ㅤㅤ</p>
+        </section>
+
+
+
+        <!-- link javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/b2ad1a6930.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
